@@ -31,7 +31,7 @@ public class TestArrayUtilities {
 		};
 		
 		NumberMatrix nm = new NumberMatrix(m);
-		nm.shiftMatrix(12);
+		nm.shiftyMatrix(12);
 		
 		assertArrayEquals(testMatrix, nm.getMatrix());
 	}
